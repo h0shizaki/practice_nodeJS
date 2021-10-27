@@ -16,25 +16,15 @@
 <body>
 
     <div class="div" style="text-align: center;padding-top: 1em;"><h2>TEST API</h2></div>
-    <div class="container" style='text-align: left;'> <a href='./addBook.html'> Add book </a></div>
+    <div class="container" style='text-align: left;'> <a href='./index.html'> Back </a></div>
     <div class="container" style="padding-top: 1em;">
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <td> ID </td>
-                    <td> Name </td>
-                    <td> Author </td>
-                    <td> Edit </td>
-                    <td> Delete </td>
-                </tr>
-            </thead>
-
-            <tbody id='myTable'>
-
-            </tbody>
-            </table>
+        <div class="form form-control">
+            Name: <input type = 'text' class='form form-control' id='bName' name='bName'>
+            Author: <input type = 'text' class='form form-control' id='bAuthor' name='bAuthor'>
+            <button class="btn btn-success" style="margin-top: 1em;" id='submit'> submit </button>
+        </div>
     </div>
 
 </body>
-<script src="index.js"></script>
+<script src="./post.js"></script>
 </html>
